@@ -7,4 +7,4 @@ export function removeAt(arr: Array<number>, index: number){
   return arr.pop()
 }
 
-console.log(removeAt([1,2,4,3,4],2))
+// console.log(removeAt([1,2,4,3,4],2))

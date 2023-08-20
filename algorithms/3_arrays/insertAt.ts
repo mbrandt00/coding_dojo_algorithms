@@ -7,4 +7,4 @@ export function insertAt(arr: Array<number>, index: number, value: number) {
   return(arr)
 }
 
-console.log(insertAt([1,2,4], 2, 3))
+// console.log(insertAt([1,2,4], 2, 3))
