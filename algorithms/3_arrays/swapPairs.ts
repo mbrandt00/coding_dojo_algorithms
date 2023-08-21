@@ -1,4 +1,4 @@
-export function swapPairs(arr: any[]){
+export function swapPairs<T>(arr: T[]){
   for(let i = 0; i < arr.length - 1; i+=2) {
     let tmp = arr[i]
     arr[i] = arr[i+1];

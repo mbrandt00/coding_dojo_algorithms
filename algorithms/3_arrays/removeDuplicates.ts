@@ -1,5 +1,5 @@
-export function removeDuplicates(arr: Array<string>):Array<string>{
-  let noDuplicate:  string[] = []
+export function removeDuplicates<T>(arr: T[]):T[]{
+  let noDuplicate:  T[] = []
   for (let i = 0; i < arr.length; i ++){
     if (arr[i] !== noDuplicate[noDuplicate.length - 1]){
       noDuplicate.push(arr[i])
@@ -9,4 +9,4 @@ export function removeDuplicates(arr: Array<string>):Array<string>{
 }
 
 let testArray = ['apple', 'apple', 'banana', 'cherry', 'cherry', 'cherry', 'date']
-console.log(removeDuplicates(testArray))
+// removeDuplicates(testArray) // [ 'apple', 'banana', 'cherry', 'date' ]

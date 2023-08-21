@@ -1,4 +1,4 @@
-export function removeAt(arr: Array<number>, index: number){
+export function removeAt<T>(arr: T[], index: number){
   let val = arr[index]
   for(let i = index; i < arr.length ; i ++){
     arr[i] = arr[i+1]
